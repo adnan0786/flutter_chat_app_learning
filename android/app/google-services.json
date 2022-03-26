@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "520641173413",
+    "project_id": "flutter-chat-app-learnin-1f996",
+    "storage_bucket": "flutter-chat-app-learnin-1f996.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520641173413:android:a6e9a32d9886d1982dba4c",
+        "android_client_info": {
+          "package_name": "com.example.flutter_chat_app_learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520641173413-hpbmar82hidanc860hjl0o71qtcnv0td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_chat_app_learning",
+            "certificate_hash": "74f339960ee35dd0d510e14c4fee8d130119dd79"
+          }
+        },
+        {
+          "client_id": "520641173413-neabfr39tcrjf3kgp7va1aoujr8hklp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhwHgwdIIJcfuJj2eSboeIy6N4BnLfLz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520641173413-neabfr39tcrjf3kgp7va1aoujr8hklp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
