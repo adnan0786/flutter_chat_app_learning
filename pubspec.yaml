@@ -50,6 +50,7 @@ dev_dependencies:
   firebase_auth: ^3.3.11
   cloud_firestore: ^3.1.10
   get: ^4.6.1
+  smooth_page_indicator: ^1.0.0+2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
