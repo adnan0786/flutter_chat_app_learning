@@ -51,6 +51,11 @@ dev_dependencies:
   cloud_firestore: ^3.1.10
   get: ^4.6.1
   smooth_page_indicator: ^1.0.0+2
+  pin_input_text_field: ^4.1.2
+  loading_overlay: ^0.3.0
+  flutter_spinkit: ^5.1.0
+  country_code_picker: ^2.0.2
+  shared_preferences: ^2.0.13
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

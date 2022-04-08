@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_app_learning/models/intro_model.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-
+import 'package:get/get.dart';
 import '../widgets/intro_view.dart';
+import 'number_screen.dart';
 
 class IntroductionScreen extends StatelessWidget {
   IntroductionScreen({Key? key}) : super(key: key);
@@ -68,7 +69,7 @@ class IntroductionScreen extends StatelessWidget {
           SmoothPageIndicator(
               controller: pageController, // PageController
               count: introPageList.length,
-              effect: SlideEffect(
+              effect: WormEffect(
                 dotColor: Colors.grey,
                 activeDotColor: Theme.of(context).primaryColor,
               ),
@@ -96,7 +97,9 @@ class IntroductionScreen extends StatelessWidget {
               child: Material(
                 color: Colors.transparent,
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Get.to(const NumberScreen());
+                  },
                   borderRadius: BorderRadius.circular(24),
                   child: const Center(
                     child: Text(

@@ -1,6 +1,7 @@
-
 import 'package:flutter/material.dart';
-
+import 'package:flutter_chat_app_learning/controllers/login_controller.dart';
+import 'package:flutter_chat_app_learning/main.dart';
+import 'package:get/get.dart';
 import 'introduction_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -52,8 +53,13 @@ class _SplashScreenState extends State<SplashScreen>
     });
 
     Future.delayed(const Duration(seconds: 4), () {
-      Navigator.push(context,
-          MaterialPageRoute(builder: (context) => IntroductionScreen()));
+      LoginController controller = Get.find<LoginController>();
+      if (controller.auth.currentUser != null) {
+        Get.offAllNamed(Routes.DATA);
+      } else {
+        Navigator.push(context,
+            MaterialPageRoute(builder: (context) => IntroductionScreen()));
+      }
     });
     super.initState();
   }
