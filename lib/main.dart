@@ -3,7 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_chat_app_learning/appTheme.dart';
 import 'package:flutter_chat_app_learning/bindings/initial_binding.dart';
-import 'package:flutter_chat_app_learning/screens/get_user_data_screen.dart';
+import 'package:flutter_chat_app_learning/screens/dashbaord.dart';
+import 'package:flutter_chat_app_learning/screens/user_info_screen.dart';
 import 'package:get/get.dart';
 
 import 'screens/splash_screen.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
       getPages: [
 
         GetPage(name: Routes.SPLASH_SCREEN,page: ()=>const SplashScreen()),
-        GetPage(name: Routes.DATA,page: ()=>const UserDataScreen()),
+        GetPage(name: Routes.DASHBAORD,page: ()=>const DashboardScreen()),
 
       ],
 
@@ -46,4 +47,5 @@ class MyApp extends StatelessWidget {
 class Routes {
   static const String SPLASH_SCREEN = "/";
   static const String DATA = "/data";
+  static const String DASHBAORD = "/dashboard";
 }

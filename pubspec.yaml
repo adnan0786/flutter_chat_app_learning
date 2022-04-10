@@ -56,6 +56,9 @@ dev_dependencies:
   flutter_spinkit: ^5.1.0
   country_code_picker: ^2.0.2
   shared_preferences: ^2.0.13
+  permission_handler: ^9.2.0
+  image_picker: ^0.8.5
+  image_cropper: ^1.5.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
